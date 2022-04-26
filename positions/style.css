@@ -1,0 +1,44 @@
+.parent{
+  background-color: red;
+  height: 200px;
+  padding: 10px;
+}
+
+.child-one{
+  background-color:  green;
+  height: 50px;
+}
+
+.child-two{
+  background-color: blue;
+  height: 50px;
+
+}
+
+.child-three{
+  background-color: grey;
+  height: 50px;
+}
+
+
+.dad{
+  background-color: red;
+  margin-top: 50px;
+  height: 200px;
+  padding: 10px;
+}
+
+.son-one{
+  background-color: green;
+  height: 50px;
+}
+
+.son-two{
+  background-color: blue;
+  height: 50px;
+}
+
+.son-three{
+  background-color: grey;
+  height: 50px;
+}
