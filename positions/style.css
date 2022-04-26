@@ -36,9 +36,36 @@
 .son-two{
   background-color: blue;
   height: 50px;
+
 }
 
 .son-three{
   background-color: grey;
   height: 50px;
+}
+
+.son-one.a{
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+.son-one.b{
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+.son-two.b{
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.son-one.c{
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+.son-two.c{
+  position: relative;
 }

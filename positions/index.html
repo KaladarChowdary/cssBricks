@@ -8,28 +8,46 @@
   <body>
 
     <div class="parent">
-      parent
+      static parent
 
-      <div class="child-one child"> One </div>
-      <div class="child-two child"> Two </div>
-      <div class="child-three child"> Three </div>
+      <div class="child-one child">static child One </div>
+      <div class="child-two child">static child Two </div>
+      <div class="child-three child">static child Three </div>
     </div>
 
     <div class="dad">
       parent
 
-      <div class="son-one "> One </div>
+      <div class="son-one "> Relative: But still stays in same position. static is the default position in relative layout. </div>
       <div class="son-two "> Two </div>
-      <div class="son-three \"> Three </div>
+      <div class="son-three "> Three </div>
     </div>
 
-    <div class="dad 2">
+    <div class="dad a">
       parent
 
-      <div class="son-one 2"> One </div>
-      <div class="son-two 2"> Two </div>
-      <div class="son-three 2"> Three </div>
+      <div class="son-one a"> Relative: Changes position over other elements. Cause this is out of document layout. </div>
+      <div class="son-two a"> Two </div>
+      <div class="son-three a"> Three </div>
     </div>
+
+    <div class="dad c">
+      parent
+
+      <div class="son-one c"> Relative: Changes positon over other static elemtents. </div>
+      <div class="son-two c"> RELATIVE: In the same layout as the above relative. Comes after it so infront of the screen. </div>
+      <div class="son-three c"> Three </div>
+    </div>
+
+    <div class="dad b">
+      parent
+
+      <div class="son-one b"> Relative: Changes positon over other static elemtents. </div>
+      <div class="son-two b"> RELATIVE: In the same layout as the above relative. Comes after it so infront of the screen. </div>
+      <div class="son-three b"> Three </div>
+    </div>
+
+
 
 
   </body>
