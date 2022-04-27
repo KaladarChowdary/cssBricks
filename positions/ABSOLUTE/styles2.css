@@ -1,0 +1,60 @@
+.parent{
+  background-color: red;
+  height: 400px;
+  padding: 10px;
+  margin-bottom: 50px;
+
+  text-align: right;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.child{
+  height: 50px;
+  background: green;
+  border: 1px solid black;
+  text-align: right;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.child-one{
+  background-color: blue;
+}
+
+.child-two{
+  background-color: orange;
+}
+
+.child-three{
+  background-color: purple;
+}
+
+.child-four{
+  background-color: yellow;
+}
+
+.child-five{
+  background-color: white;
+  position: absolute;
+
+  top: 70px;
+  left: 20px;
+}
+
+.child-six{
+  background-color: black;
+  color: white;
+}
+
+
+.parent.a{
+  position: relative;
+}
+
+
+.child-five.a , .child-five.b{
+  top: 10px;
+  left: 20px;
+}
