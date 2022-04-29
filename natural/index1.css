@@ -1,0 +1,24 @@
+
+
+.parent{
+  background-color: grey;
+  border: solid grey;
+
+}
+
+.child1{
+  background-color:green;
+  border: solid green;
+
+}
+
+.child2{
+  background-color: blue;
+  border: solid blue;
+
+}
+
+.child3{
+  background-color: yellow;
+  border: solid yellow;
+}
