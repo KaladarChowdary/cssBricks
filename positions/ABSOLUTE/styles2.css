@@ -39,7 +39,7 @@
   background-color: white;
   position: absolute;
 
-  top: 70px;
+  top: 10px;
   left: 20px;
 }
 
@@ -57,4 +57,10 @@
 .child-five.a , .child-five.b{
   top: 10px;
   left: 20px;
+}
+
+.child-five.x{
+  width: 90%;
+  text-align: center;
+
 }
