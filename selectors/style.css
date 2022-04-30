@@ -5,3 +5,30 @@
   margin: 5px;
 
 }
+
+.red{
+  background-color: red;
+}
+
+#green{
+  background-color: green;
+}
+
+li.blue{
+  background-color: blue;
+}
+
+.blue, li.red.q {
+  text-align: center;
+  font-weight: 600;
+}
+
+
+
+.a li{
+  color: orange;
+}
+
+.a > li{
+  color: violet;
+}
