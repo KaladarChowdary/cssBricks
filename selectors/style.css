@@ -32,3 +32,26 @@ li.blue{
 .a > li{
   color: violet;
 }
+
+
+li.red ~ li{
+  border-color: yellow;
+  border-width: 3px;
+}
+
+
+li.red  + li{
+  border-color: indigo;
+  border-width: 6px;
+}
+
+li:hover{
+  background-color: black;
+  color: white;
+  font-weight: 400;
+  height: 20px;
+}
+
+input:focus{
+  background-color: grey;
+}

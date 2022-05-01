@@ -3,33 +3,32 @@
   <head>
     <meta charset="utf-8">
     <title>selector</title>
-    <link rel="stylesheet" href="style.css">
+
+<style media="screen">
+  [data-red *= "23"]{
+    background-color: red;
+  }
+</style>
+
   </head>
   <body>
+<div data-red = "1234">This is a div</div>
+<span class="blue">This is a spam</span>
 
-    <div class="">
-      This is a div
-    </div>
-    <div class="blue">
-      Center Aligned Text
-    </div>
+<div class="">
+  <span>This is a nested text</span>
+</div>
 
-    <ul class="a">
-      <li id="green">Item 1</li>
-      <li>Item 2</li>
-      <li class="red">Item 3</li>
-      <li>Item 4</li>
-      <li>Item 5</li>
-      <ul>
-        <li>Subitem 5.1</li>
-        <li>Subitem 5.2</li>
-        <li>Subitem 5.3</li>
-        <li>Subitem 5.4</li>
-      </ul>
-      <li class="blue">Item 6</li>
-      <li class="red q">Center Aligned Text</li>
-      <li>Item 8</li>
-    </ul>
+<ul>
+  <li>Item 1</li>
+  <li class="red">Item 2</li>
+  <li>Item 3</li>
+  <li class="green">Item 4</li>
+  <li>Item 5</li>
+  <li class="red">Item 6</li>
+  <li>Item 7</li>
+  <li class="green">Item 8</li>
+</ul>
 
   </body>
 </html>
