@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>px vs %</title>
+
+    <style media="screen">
+      *{
+        margin: 1px;
+      }
+
+      .fifty{
+        width: 50%;
+        border: 2px solid black;
+
+      }
+
+      .hundred{
+        width: 100px;
+        border: 2px solid black;
+
+      }
+
+      .parent{
+        width: 150px;
+        background-color: green;
+        border: 2px solid black;
+      }
+
+      hr{
+        margin: 10px 0;
+      }
+    </style>
+    </head>
+  <body>
+
+    <div class="box hundred"> 100px </div>
+    <div class="box fifty">50%</div>
+
+    <hr>
+
+    <div class="parent">
+      <div class="box hundred"> 100px </div>
+      <div class="box fifty">50%</div>
+    </div>
+
+  </body>
+</html>
