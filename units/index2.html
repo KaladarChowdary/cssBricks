@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>% vs vw & vh</title>
+
+    <style media="screen">
+      *{
+        margin: 5px;
+      }
+      .box{
+        background-color: red;
+        border: solid 2px black;
+      }
+
+      .fifty{
+        width: 50%;
+      }
+
+      .vw-fifty{
+        width: 50vw;
+      }
+
+      .vh-tfive{
+        height: 25vh;
+      }
+
+      .parent{
+        width: 100px;
+        border: solid 2px black;
+
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+    <div class="box fifty"> 50% </div>
+    <div class="box vw-fifty"> 50vw </div>
+    <div class="box vh-tfive"> 25vh </div>
+
+    <hr>
+
+    <div class="parent">
+      <div class="box fifty"> 50% </div>
+      <div class="box vw-fifty"> 50vw </div>
+      <div class="box vh-tfive"> 25vh </div>
+    </div>
+
+  </body>
+</html>
