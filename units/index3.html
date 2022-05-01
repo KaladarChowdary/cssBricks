@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>em vh rem</title>
+
+    <style media="screen">
+
+      .eone{
+        font-size: 1em;
+      }
+
+      .rone{
+        font-size: 1rem;
+      }
+
+      .etwo{
+        font-size: 2em;
+      }
+
+      .rtwo{
+        font-size: 2rem;
+      }
+
+      .parent{
+        font-size: 200%;
+        margin: 1px;
+        padding: 1px;
+        border: solid 2px black;
+      }
+
+      .icon{
+        background-color: red;
+        border: solid 1px black;
+        display: inline-block;
+        margin: 0;
+      }
+
+      .icon-container.large{
+        font-size: 30px;
+      }
+
+      .em-icon{
+        width: 1em;
+        height: 1em;
+      }
+
+      .rem-icon{
+        width: 1rem;
+        height: 1rem;
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+    <div class="eone"> 1em   </div>
+    <div class="rone"> 1rem   </div>
+    <div class="etwo"> 2em   </div>
+    <div class="rtwo"> 2rem   </div>
+
+    <hr>
+
+    <div class="parent">
+
+      <div class="eone"> 1em   </div>
+      <div class="rone"> 1rem   </div>
+      <div class="etwo"> 2em   </div>
+      <div class="rtwo"> 2rem   </div>
+
+    </div>
+
+    <hr>
+
+    <div class="icon-container">
+      <div class="icon em-icon"></div>
+      <span>1em icon</span></div>
+
+    <div class="icon-container">
+      <div class="icon rem-icon"></div>
+      <span>1rem icon</span></div>
+
+  <div class="parent">
+
+    <div class="icon-container">
+      <div class="icon em-icon"></div>
+      <span>1em icon</span></div>
+
+    <div class="icon-container">
+      <div class="icon rem-icon"></div>
+      <span>1rem icon</span></div>
+
+
+
+  </div>
+
+
+
+
+
+  </body>
+</html>
