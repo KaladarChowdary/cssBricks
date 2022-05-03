@@ -1,0 +1,24 @@
+
+Most likely don't use pixels. Other units are more adaptable to screen.
+Becareful though, there are exceptions for every case.
+
+FONT-SIZE: use rem.
+It's simple and **consistent. Entire document font-size could be adjusted using rem.
+em makes complicated. % is also complicated.
+
+WIDTH: use %.
+It's used most of the time. Simple and elegant.
+
+HEIGHT: Why would you set height? when screen get's small height get's bigger.
+set min-height. Same as width use % or rem.
+
+MARGIN AND PADDING: Use em if you want to scale. Else use rem.
+
+Easier math:
+html{
+ font-size: 62.5%;
+}
+
+.class1{
+ font-size: 2.1rem; //Then it is 21pixels
+}
