@@ -2,6 +2,8 @@
   padding: 0;
   border: 0;
   margin: 0;
+
+  box-sizing: border-box;
 }
 
 .box-one{
@@ -9,7 +11,7 @@
 
   padding: 30px;
   border: 20px solid green;
-  margin: 40px;
+  margin: 60px;
 
   width: 100px;
   height: 100px;
@@ -18,10 +20,11 @@
 .box-two{
   background-color: blue;
 
-  padding: 30px;
-  border: 20px solid grey;
-  margin: 80px;
+  padding: 20px;
+  border: 30px solid grey;
+  margin: 30px;
 
   width: 100px;
   height: 100px;
+
 }
